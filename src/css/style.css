@@ -5154,6 +5154,7 @@ body {
   height: 100vh;
   width: auto;
   overflow: hidden;
+  -webkit-text-size-adjust: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
