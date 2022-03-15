@@ -34,7 +34,7 @@
             <div class="tgt">SQULAT</div>
           </div>
           <br>
-          <h1 class="inv">高品質なシステム開発・WEBデザインでビジネス基盤を次のステージへ。</h1>
+          <h1 class="inv is-show">高品質なシステム開発・WEBデザインでビジネス基盤を次のステージへ。</h1>
         </div>
         <video autoplay loop>
           <source src="src/497632384.mp4" type="video/webm">
@@ -92,7 +92,6 @@
         
           $(function(){
             setTimeout(function(){
-              // $('.tgt').append('<span class="cur">_</span>');
                 setInterval(function(){$('.cur').toggle();},200);
                 $('.tgt').css({'opacity':1});
                 for (var i = 0; i <= $('.tgt').children().size() - 1; i++) {
@@ -100,14 +99,13 @@
               };
             },1400);
           });
-        });
-        
-        $(function() {
+
           $('.inv').acs({
             screenPos: 0.4,
             className: 'is-show'
           });
           $('.catch').acs({className: 'is-show'});
+
         });
         
         
